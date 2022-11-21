@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/create-teachers-table.sql
+  - include:
+      file: db/changelog/changes/add-teachers.sql
+  - include:
+      file: db/changelog/changes/create-students-table.sql
+  - include:
+      file: db/changelog/changes/add-students.sql
+  - include:
+      file: db/changelog/changes/create-teachers-students-table.sql
