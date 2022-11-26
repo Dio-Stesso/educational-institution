@@ -28,7 +28,7 @@ public class Student {
     @Column(name = "last_name")
     private String lastName;
     private Integer age;
-    //@Column(unique = true, nullable = false)
+    @Column(unique = true, nullable = false)
     private String email;
     private String speciality;
     @ManyToMany(mappedBy = "students", fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
